@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.Gamer-imagen{
+	background-color: rgb(199, 122, 51);
+}
+
+.contenedor-principal {
+    background: rgb(199, 122, 51);;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;    
+}
+
+.tarjeta{
+    width: 600px;
+    height: 200px;
+    margin: 50px;
+    background-color: rgb(42, 199, 133);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.error {
+    color: #FFF;
+    display: inline-block;
+    font-size: 0.7rem;
+    margin: 0 0.3rem;
+}
+
+button {
+    all: initial;
+    font: inherit;
+    cursor: pointer;
+    user-select: none;
+
+    color: rgb(26, 20, 20);
+    background:   #9596e6;
+    text-align: center;
+	animation: cubic-bezier(0.6, 0.04, 0.98, 0.335);  
+    margin: 10px 5px;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.contenedor-botones{
+    display: flex;
+	
+}
+
+.mensaje-contenedor {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    all: initial;
+    font: inherit;
+    background: transparent;
+    color: #FFF;
+    padding: 1em 0.5em;
+}
